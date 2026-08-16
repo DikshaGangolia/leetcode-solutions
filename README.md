@@ -5,6 +5,9 @@ A collection of my LeetCode solutions to practice and focused on improving probl
 
 To consistently practice coding problems, strengthen DSA fundamentals, and improve problem-solving through competitive programming.
 
-# 📌 Topics
+# 💻 Languages & Skills
 
-Arrays • Strings • Linked Lists • Stack & Queue • Trees • Hashing • SQL • Dynamic Programming
+- Python
+- C++
+- MySQL
+- Data Structures & Algorithms (DSA)

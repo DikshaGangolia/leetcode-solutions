@@ -11,4 +11,3 @@ To consistently practice coding problems, strengthen DSA fundamentals, and impro
 - C++
 - JavaScript
 - MySQL
-- Data Structures & Algorithms (DSA)

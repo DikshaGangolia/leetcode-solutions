@@ -9,5 +9,6 @@ To consistently practice coding problems, strengthen DSA fundamentals, and impro
 
 - Python
 - C++
+- JavaScript
 - MySQL
 - Data Structures & Algorithms (DSA)

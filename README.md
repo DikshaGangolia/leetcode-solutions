@@ -1,7 +1,7 @@
 # Leetcode-solutions
-A collection of my LeetCode solutions to practice and focused on improving problem-solving..
+A collection of my LeetCode solutions to practice and improve problem-solving skills.
 
-#🎯 Goal
+# 🎯 Goal
 
 To consistently practice coding problems, strengthen DSA fundamentals, and improve problem-solving through competitive programming.
 
@@ -11,3 +11,7 @@ To consistently practice coding problems, strengthen DSA fundamentals, and impro
 - C++
 - JavaScript
 - MySQL
+
+## 📚 Progress
+
+This repository is continuously updated with new LeetCode solutions and SQL problems.

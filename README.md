@@ -8,6 +8,4 @@ To consistently practice coding problems, strengthen DSA fundamentals, and impro
 - C++
 - JavaScript
 - MySQL
-  
-## 📚 Progress
-This repository is continuously updated with new LeetCode solutions and SQL problems.
+

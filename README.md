@@ -3,6 +3,7 @@
 Welcome to my collection of **LeetCode solutions**. This repository documents my journey of solving coding problems, strengthening my **Data Structures and Algorithms (DSA)** fundamentals, and improving my overall problem-solving skills.
 
 ## 🎯 Objective
+
 The goal of this repository is to maintain a consistent problem-solving practice and develop a deeper understanding of:
 
 - Data Structures and Algorithms

@@ -23,6 +23,7 @@ The goal of this repository is to maintain a consistent problem-solving practice
 ## 📂 Repository Structure
 
 Each problem is organized in its own folder, generally using the following format:
+
 ```text
 
 problem-number-problem-name/

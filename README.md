@@ -57,6 +57,7 @@ I use this repository to track my progress while practicing different categories
 - SQL
 
 ## 🌱 Continuous Learning
+
 This repository is continuously updated as I solve more problems and explore new approaches. Some solutions may evolve over time as I learn better algorithms and optimization techniques.
 
 ## ⭐ Support

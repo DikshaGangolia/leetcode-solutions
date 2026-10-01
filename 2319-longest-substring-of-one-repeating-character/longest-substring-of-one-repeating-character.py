@@ -11,10 +11,8 @@ class Solution:
             best = max(a[5], b[5])
             if a[1] == b[0]:
                 best = max(best, a[4] + b[3])
-                # Entire left segment has same character
                 if a[3] == a[2]:
                     prefix = a[2] + b[3]
-                # Entire right segment has same character
                 if b[4] == b[2]:
                     suffix = a[4] + b[2]
             return [
@@ -28,12 +26,12 @@ class Solution:
         def build(node, left, right):
             if left == right:
                 tree[node] = [
-                    s[left],   # left character
-                    s[left],   # right character
-                    1,         # length
-                    1,         # prefix
-                    1,         # suffix
-                    1          # best
+                    s[left],   
+                    s[left],  
+                    1,        
+                    1,       
+                    1,         
+                    1
                 ]
                 return
             mid = (left + right) // 2

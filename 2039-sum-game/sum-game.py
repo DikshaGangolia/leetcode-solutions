@@ -17,10 +17,8 @@ class Solution:
                     rightQ += 1
                 else:
                     rightSum += int(num[i])
-        # If total question marks are odd, Alice wins
         if (leftQ + rightQ) % 2 == 1:
             return True
-        # Check whether Bob can make both sums equal
         if leftSum - rightSum == (rightQ - leftQ) * 9 // 2:
             return False
         return True

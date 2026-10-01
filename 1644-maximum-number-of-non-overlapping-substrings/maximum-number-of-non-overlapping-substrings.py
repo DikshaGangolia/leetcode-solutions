@@ -1,7 +1,6 @@
 class Solution:
     def maxNumOfSubstrings(self, s):
         n = len(s)
-        # First and last occurrence of every character
         first = [n] * 26
         last = [-1] * 26
         for i, ch in enumerate(s):
@@ -9,7 +8,6 @@ class Solution:
             first[x] = min(first[x], i)
             last[x] = i
         intervals = []
-        # Find the smallest valid interval for every character
         for c in range(26):
             if last[c] == -1:
                 continue
@@ -19,16 +17,13 @@ class Solution:
             i = left
             while i <= right:
                 x = ord(s[i]) - ord('a')
-                # This character appeared before our interval
                 if first[x] < left:
                     valid = False
                     break
-                # Expand interval if necessary
                 right = max(right, last[x])
                 i += 1
             if valid:
                 intervals.append((left, right))
-        # Sort by ending position
         intervals.sort(key=lambda x: x[1])
         result = []
         prev_end = -1

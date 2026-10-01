@@ -1,4 +1,3 @@
-# Write your MySQL query statement below
 (
     SELECT u.name AS results
     FROM Users u
@@ -8,9 +7,7 @@
     ORDER BY COUNT(*) DESC, u.name ASC
     LIMIT 1
 )
-
 UNION ALL
-
 (
     SELECT m.title AS results
     FROM Movies m

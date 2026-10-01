@@ -9,13 +9,10 @@ class Solution:
                     count += 1
                 if count == k:
                     temp = s[i:j + 1]
-                    # First valid substring
                     if ans == "":
                         ans = temp
-                    # Shorter substring
                     elif len(temp) < len(ans):
                         ans = temp
-                    # Same length but lexicographically smaller
                     elif len(temp) == len(ans) and temp < ans:
                         ans = temp
                     break

@@ -1,4 +1,3 @@
-# Write your MySQL query statement below
 SELECT person_name
 FROM (
     SELECT 

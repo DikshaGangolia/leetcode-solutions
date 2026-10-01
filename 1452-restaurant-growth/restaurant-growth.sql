@@ -1,11 +1,9 @@
-# Write your MySQL query statement below
 WITH daily_sales AS (
     SELECT visited_on,
         SUM(amount) AS amount
     FROM Customer
     GROUP BY visited_on
 )
-
 SELECT visited_on,
     SUM(amount) OVER (
         ORDER BY visited_on

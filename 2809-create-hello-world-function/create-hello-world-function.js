@@ -1,1 +1,1 @@
-const createHelloWorld = () => (...args) => "Hello World";
+const createHelloWorld=()=>(...args)=>"Hello World";
